@@ -37,5 +37,29 @@
   <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_website_url }}" class="icon-link" itemprop="url">{% include icons/icon-website.html %}</a></li>
   {% endif %}
 
+  {% if site.resume_social_links.resume_eight_url %}
+  <li class="icon-link-item">
+    <a href="{{ site.resume_social_links.resume_eight_url }}" class="icon-link" itemprop="url">
+      <img src="images/extra_icons/eight.png" width="28" alt="icon-eight" itemprop="image">
+    </a>
+  </li>
+  {% endif %}
+
+  {% if site.resume_social_links.resume_qiita_url %}
+  <li class="icon-link-item">
+    <a href="{{ site.resume_social_links.resume_qiita_url }}" class="icon-link" itemprop="url">
+      <img src="images/extra_icons/qiita.png" width="28" alt="icon-eight" itemprop="image">
+    </a>
+  </li>
+  {% endif %}
+
+  {% if site.resume_social_links.resume_slideshare_url %}
+  <li class="icon-link-item">
+    <a href="{{ site.resume_social_links.resume_slideshare_url }}" class="icon-link" itemprop="url">
+      <img src="images/extra_icons/slideshare.png" width="28" alt="icon-eight" itemprop="image">
+    </a>
+  </li>
+  {% endif %}
+
 </ul>
 {% endif %}

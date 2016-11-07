@@ -5,7 +5,7 @@
 
   <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
     <div class="wrapper" itemscope itemtype="http://schema.org/Person">
-      <p><a href="index_ja.html">日本語はこちら</a></p>
+      <p><a href="/">English</a></p>
 
       <header class="page-header">
 
@@ -15,7 +15,7 @@
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
-        <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
+        <h1 class="header-name" itemprop="name">{{ site.resume_name_ja }}</h1>
 
         <div class="title-bar">
 
@@ -27,7 +27,7 @@
         </div>
 
         <div class="executive-summary" itemprop="description">
-          <p>I'm 2 degrees of master's student in Nagaoka University of Technology. My research topic is natural language processing. I like developing tools.</p>
+          <p>長岡技術科学大学電子情報工学専攻修士2年です。現在、自然言語処理研究室で言語処理に関する研究およびツール開発を行っています。なお、ページをこちらへ移行中です。(www.jnlp.org/takahashiとほぼ同じ内容)</p>
           <p>email: takahashi at jnlp.org</p>
         </div>
 
@@ -42,15 +42,15 @@
 
       <section class="content-section">
         <header class="section-header">
-          <h2>Research Interest</h2>
+          <h2>興味関心のある分野</h2>
         </header>
 
         <div class="resume-item">
           <ul class="resume-item-list">
-            <li>Japanese processing</li>
-            <li>Vietnamese processing</li>
-            <li>Developing NLP tools</li>
-            <li>Fundamental analysis such as word segmentation and part-of-speech tagging</li>
+            <li>日本語処理</li>
+            <li>ベトナム語処理</li>
+            <li>自然言語処理ツールの開発</li>
+            <li>単語分割や品詞付与などの自然言語処理の基盤技術の研究開発</li>
           </ul>
         </div>
 
@@ -58,11 +58,11 @@
 
       <section class="content-section">
         <header class="section-header">
-          <h2>Publications</h2>
+          <h2>業績</h2>
         </header>
 
         <div class="resume-item">
-          <h4 class="resume-item-details">International Conference</h4>
+          <h4 class="resume-item-details">国際会議</h4>
           <ul class="resume-item-list">
             <li>Kazuhide Yamamoto and <u>Kanji Takahashi</u>. Japanese Orthographical Normalization Do Not Work for Statistical Machine Translation. Proceedings of the International Conference on Asian Language Processing (IALP 2016), (2016.11 scheduled)</li>
             <li><u>Kanji Takahashi</u> and Kazuhide Yamamoto. Fundamental Tools and Resource is Available for Vietnamese Analysis. Proceedings of the International Conference on Asian Language Processing (IALP 2016), (2016.11scheduled)</li>
@@ -70,7 +70,7 @@
             <li>Kazuhide Yamamoto and <u>Kanji Takahashi</u>. Construction of Japanese Semantically Compatible Words Resource. Proceedings of the International Conference on Asian Language Processing (IALP 2015), pp.61-64 (Oct 2015, scheduled) </li>
           </ul>
 
-          <h4 class="resume-item-details">Domestic conference</h4>
+          <h4 class="resume-item-details">国内会議</h4>
           <ul class="resume-item-list">
             <li>山本 和英, <u>高橋 寛治</u>, 桾澤 優希, 西山 浩気. 日本語解析システム「雪だるま」第2報～進捗報告と活用形態素の導入～. 電子情報通信学会 テキストマイニングシンポジウム, 信学技報, Vol.116, No.213, pp.63-68 (2016.9)</li>
             <li>西山 浩気, 山本 和英, <u>高橋 寛治</u>. 日本語解析システム「雪だるま」における表記ゆれのまとめあげ. NLP若手の会 第11回シンポジウム, (ポスター発表P21) (2016.8)</li>
@@ -80,7 +80,7 @@
             <li>山本和英, <u>高橋寛治</u>. 語彙統制のための同義語集合の資源化. 電子情報通信学会 テキストマイニングシンポジウム, 信学技報, , Vol.115, No.222, pp.7-12 (2015.9)</li>
           </ul>
 
-          <h4 class="resume-item-details">Presentation, etc.</h4>
+          <h4 class="resume-item-details">口頭発表ほか</h4>
           <ul class="resume-item-list">
             <li>Kazuhide Yamamoto and <u>Kanji Takahashi</u>. Japanese Orthographical Normalization Does Not Work for Statistical Machine Translation. The 16th China-Japan Natural Language Processing Collaboration Promotion Conference (CJNLP 2016), (2016.9)</li>
             <li>阿南高専再生可能エネルギー研究会の小水力発電の取り組みについて, 第３回全国小水力発電サミットin岐阜「小水力甲子園～大学生・高専生・高校生交流会～ 」, 2013.2</li>
@@ -94,24 +94,24 @@
 
       <section class="content-section">
         <header class="section-header">
-          <h2>Tools and Resources</h2>
+          <h2>開発しているツール・資源・デモ</h2>
         </header>
 
-        <p>I like developing tools.</p>
+        <p>ツール開発が好きです。</p>
 
         <div class="resume-item">
           <ul class="resume-item-list">
-            <li><a href="http://snowman.jnlp.org/english" >SNOWMAN</a></li>
-            <li><a href="http://snowman.jnlp.org/n-gram_tool" >n-gram tool for SNOWMAN</a> </li>
-            <li><a href="http://www.jnlp.org/SNOW/D9" >SNOW D9:Japanese part-of-speech correspondence dictionary between noun and verb</a></li>
-            <li><a href="http://www.jnlp.org/SNOW/T10" >SNOW T10:normalized Japanese text of The Kyoto Free Translation Task</a></li>
-            <li><a href="https://github.com/kanjirz50/web-nlp-interface" >NLP Web Demonstration Template</a></li>
-            <li><a href="http://160.16.58.116/vietnamese/morph" >SNOW Vietnamese Morphological Analyzer with SVMs</a></li>
-            <li><a href="http://160.16.58.116/vietnamese/morph_crf" >SNOW Vietnamese Morphological Analyzer with CRFs</a></li>
-            <li><a href="http://160.16.58.116/vietnamese/tone" >SNOW Vietnamese Diacritics Restoration</a></li>
-            <li><a href="https://github.com/kanjirz50/viet-orthographic-normalization" >Vietnamese Preprocessing Scripts</a></li>
-            <li><a href="https://github.com/kanjirz50/vnlp-outline" >Out line of Vietnamese NLP</a></li>
-            <li><a href="https://github.com/nut-jnlp/web-word2vec-demo" >word2vec demonstration</a></li>
+            <li><a href="http://snowman.jnlp.org/english" >日本語解析システム雪だるま</a></li>
+            <li><a href="http://snowman.jnlp.org/n-gram_tool" >n-gram作成ツール</a> </li>
+            <li><a href="http://www.jnlp.org/SNOW/D9" >SNOW D9:動詞名詞対応辞書</a></li>
+            <li><a href="http://www.jnlp.org/SNOW/T10" >SNOW T10:KFTT日本語表記統制テキスト</a></li>
+            <li><a href="https://github.com/kanjirz50/web-nlp-interface" >言語処理研究成果Webデモ作成のためのテンプレート</a></li>
+            <li><a href="http://160.16.58.116/vietnamese/morph" >SVMによるベトナム語形態素解析器</a></li>
+            <li><a href="http://160.16.58.116/vietnamese/morph_crf" >CRFによるベトナム語形態素解析器</a></li>
+            <li><a href="http://160.16.58.116/vietnamese/tone" >ベトナム語声調復元ツール</a></li>
+            <li><a href="https://github.com/kanjirz50/viet-orthographic-normalization" >ベトナム語前処理スクリプト</a></li>
+            <li><a href="https://github.com/kanjirz50/vnlp-outline" >ベトナム語ツールまとめ</a></li>
+            <li><a href="https://github.com/nut-jnlp/web-word2vec-demo" >word2vecデモ</a></li>
           </ul>
         </div>
 

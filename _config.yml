@@ -11,6 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Kanji Takahashi (髙橋 寛治)"
+resume_name_ja:                 "髙橋 寛治"
 resume_title:                   "About me"
 resume_contact_email:
   "takahashi@jnlp.org"
@@ -41,6 +42,9 @@ resume_social_links:
   resume_linkedin_url:          "https://www.linkedin.com/in/kanji-takahashi-5186aa119"
   # resume_instagram_url:         "insert your Instagram URL here"
   # resume_website_url:           "http://joelglovier.com"
+  resume_eight_url:             "https://8card.net/p/34779592122"
+  resume_qiita_url:             "http://qiita.com/kanjirz50"
+  resume_slideshare_url:        "http://www.slideshare.net/kanjitakahashi33"
 
 # Design settings
 resume_theme:                   default
