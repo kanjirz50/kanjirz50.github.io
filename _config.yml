@@ -1,6 +1,6 @@
 # Site settings
-title: "Kanji Takahashi"
-description: "A resume."
+title: "Kanji Takahashi | 高橋寛治"
+description: "高橋 寛治 (Takahashi Kanji)のページ。長岡技術科学大学修士2年です。自然言語処理研究室で言語処理に関する研究およびツール開発を行っています。"
 
 # Build settings
 markdown: kramdown
